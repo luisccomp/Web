@@ -1,0 +1,53 @@
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.image-container {
+    width: 100%;
+    padding: 10px;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.page-content {
+    font-size: 1.2em;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: justify;
+}
+
+.page-title {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Aplicando propriedades para monitores no máximo em FULL HD */
+@media(max-width: 760px) {
+    .responsive-image {
+        max-width: 100%;
+    }
+
+    .page-content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .image-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

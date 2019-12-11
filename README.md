@@ -1,0 +1,1 @@
+This repository is for experimentation only. I'm studying web development and front-end.
